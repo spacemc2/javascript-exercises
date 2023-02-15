@@ -1,4 +1,13 @@
 function countCharacter(str, char) {
-    // your code here
-    
+    ////first
+    // count=0;
+
+    // while(str.match(char)){
+    //     str=str.replace(char,'')
+    //     count++;
+    // }
+    // return count
+    ////second
+    return str.split(char).length-1
+
 }

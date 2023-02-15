@@ -9,6 +9,11 @@ let obj = {
 
 function countNumberOfKeys(obj) {
     // your code here
+    count=0
+    for(prop in obj){
+        count++;
+    }
+    return count
    
 }
 console.log(countNumberOfKeys(obj))
